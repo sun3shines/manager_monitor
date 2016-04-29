@@ -1,0 +1,89 @@
+10
+
+dir
+13778
+svn://127.0.0.1/my_thought/code/workspace1/merge/manager_monitor/managerlib
+svn://127.0.0.1
+
+
+
+2016-04-29T06:39:01.032525Z
+13776
+she
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+77abf68d-63db-4577-9e43-e67788e264ed
+
+utils
+dir
+
+restful
+dir
+
+advanced
+dir
+
+db
+dir
+
+urls
+dir
+
+__init__.py
+file
+
+
+
+
+2016-04-29T06:38:57.882301Z
+a80762dc6a1fbe2e5db93ebd8092d1a9
+2016-04-29T06:39:01.032525Z
+13776
+she
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1005
+
+common
+dir
+
+globalx
+dir
+
+dblib
+dir
+
+client
+dir
+

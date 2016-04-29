@@ -1,0 +1,21 @@
+[DEFAULT]
+devices = /mnt/cloudfs-object
+mount_check = true
+bind_port = 7013
+user = root
+log_facility = LOG_LOCAL2
+workers = 0 
+
+[pipeline:main]
+pipeline = monitorcenter
+
+[app:monitorcenter]
+use = egg:managerlib#monitorcenter
+
+[account-replicator]
+vm_test_mode = yes
+
+[account-auditor]
+
+[account-reaper]
+

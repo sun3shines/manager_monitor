@@ -1,0 +1,21 @@
+[DEFAULT]
+devices = /mnt/cloudfs-object
+mount_check = true
+bind_port = 7015
+user = root
+log_facility = LOG_LOCAL2
+workers = 0 
+
+[pipeline:main]
+pipeline = confexecutor 
+
+[app:confexecutor]
+use = egg:managerlib#confexecutor
+
+[account-replicator]
+vm_test_mode = yes
+
+[account-auditor]
+
+[account-reaper]
+
